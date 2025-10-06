@@ -15,7 +15,6 @@ class CarbonFootprintCalculator:
         self.user_data = {}
         self.history = []
         
-        # More comprehensive emission factors (kg CO₂)
         self.emission_factors = {
             'transport': {
                 'car_petrol': 0.24,
@@ -46,10 +45,10 @@ class CarbonFootprintCalculator:
                 'vegetables': 2.0, 'fruits': 1.1, 'grains': 1.4, 'nuts': 0.3
             },
             'shopping': {
-                'fast_fashion': 15,  # per item
-                'electronics': 50,   # per small device
-                'furniture': 100,    # per item
-                'plastic_bottles': 0.2  # per bottle
+                'fast_fashion': 15,  
+                'electronics': 50,  
+                'furniture': 100,    
+                'plastic_bottles': 0.2  
             }
         }
 
@@ -325,7 +324,7 @@ class CarbonFootprintCalculator:
         print(f"\n📈 ANNUAL TOTAL: {total_annual:,.2f} kg CO₂ ({total_annual/1000:.1f} tons)")
         
         # Comparison
-        avg_american = 16000  # kg per year
+        avg_american = 16000  
         comparison = "above" if total_annual > avg_american else "below"
         difference = abs(total_annual - avg_american)
         print(f"🌎 Your footprint is {difference:,.0f} kg {comparison} the average American")
@@ -419,7 +418,6 @@ class CarbonFootprintCalculator:
         for rec in recommendations.get(category, []):
             print(f"   • {rec}")
         
-        # General recommendations
         print("\n🌟 Additional general tips:")
         general_tips = [
             "📊 Track your footprint monthly",
@@ -478,7 +476,7 @@ class CarbonFootprintCalculator:
             except ValueError:
                 print("❌ Please enter a valid number")
 
-# Run the enhanced calculator
 if __name__ == "__main__":
     calculator = CarbonFootprintCalculator()
     calculator.introduction()
+
