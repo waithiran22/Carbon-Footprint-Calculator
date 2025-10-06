@@ -6,6 +6,10 @@
 
 A comprehensive Python application that calculates your personal carbon footprint based on transportation, electricity usage, food consumption, and shopping habits. Get personalized insights and recommendations to reduce your environmental impact.
 
+<p align="center">
+  <img src="carbon.jpg" alt="Carbon Footprint Calculator" width="600"/>
+</p>
+
 
 ##  Features
 
@@ -28,44 +32,39 @@ A comprehensive Python application that calculates your personal carbon footprin
 - **Visual Dashboards**: Pie charts and bar graphs for easy understanding
 - **Actionable Recommendations**: Personalized tips to reduce your footprint
 
+---
+
+## 📊 Example Analysis Report  
+
+![Carbon Footprint Calculator Demo](footprint.png) 
+
+---
+
 ## Quick Start
 
 ### Prerequisites
 - Python 3.7 or higher
 - pip (Python package manager)
+  
+---
 
 ### Installation
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/yourusername/Carbon-Footprint-Calculator.git
-   cd Carbon-Footprint-Calculator
+git clone https://github.com/yourusername/Carbon-Footprint-Calculator.git
+cd Carbon-Footprint-Calculator
 ```
 2. **Install required packages**
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 3. **Run the application**
-   ```
-   python carbon_calculator.py
-   ```
+```
+python carbon_calculator.py
+ ```
    ---
-   
-## Command Line Interface
-Quick calculation with minimal input
-```
-python carbon_calculator.py --quick
-```
-Generate report only
-```
-python carbon_calculator.py --report-only
-```
 
-Set custom emission factors
-```
-python carbon_calculator.py --custom-factors factors.json
-```
----
 ## Calculation Methodology
 ### Emission Factors
 Our calculations use scientifically-validated emission factors from:
@@ -81,10 +80,10 @@ Our calculations use scientifically-validated emission factors from:
 ---
 ## Formulas
 
-**Transportation Example**
+**Transportation =**
 ```monthly_emissions = distance_km × emission_factor × 30 days```
 
-**Electricity Example**
+**Electricity =**
 ```appliance_emissions = (watts / 1000) × hours × emission_factor × 30 days```
 
 ---
