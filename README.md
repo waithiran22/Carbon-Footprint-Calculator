@@ -1,4 +1,4 @@
-# 🌍 Carbon Footprint Calculator
+#  Carbon Footprint Calculator
 
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,17 +14,17 @@ A comprehensive Python application that calculates your personal carbon footprin
 ##  Features
 
 ### Core Functionality
-- **📊 Multi-Category Analysis**: Calculate emissions from transport, electricity, food, and shopping
-- **🌐 Personalized Insights**: Get customized recommendations based on your usage patterns
-- **📈 Data Visualization**: Interactive charts and graphs using matplotlib
-- **💾 Historical Tracking**: Save and compare your footprint over time
-- **👤 User Profiles**: Personalized experience with user information
+- **Multi-Category Analysis**: Calculate emissions from transport, electricity, food, and shopping
+- **Personalized Insights**: Get customized recommendations based on your usage patterns
+- **Data Visualization**: Interactive charts and graphs using matplotlib
+- **Historical Tracking**: Save and compare your footprint over time
+- **User Profiles**: Personalized experience with user information
 
 ###  Calculation Methods
-- **🚗 Transportation**: Cars (petrol, diesel, electric), public transit, flights, and active transport
-- **💡 Electricity**: Detailed appliance-level tracking with various energy sources
-- **🍎 Food Consumption**: Diet-based estimation or detailed item tracking
-- **🛍️ Shopping Habits**: Emissions from fashion, electronics, and consumables
+- **Transportation**: Cars (petrol, diesel, electric), public transit, flights, and active transport
+- **Electricity**: Detailed appliance-level tracking with various energy sources
+- **Food Consumption**: Diet-based estimation or detailed item tracking
+- **Shopping Habits**: Emissions from fashion, electronics, and consumables
 
 ###  Output & Analytics
 - **Monthly & Annual Reports**: Comprehensive emission breakdowns
@@ -34,7 +34,7 @@ A comprehensive Python application that calculates your personal carbon footprin
 
 ---
 
-## 📊 Example Analysis Report  
+##  Example Analysis Report  
 
 ![Carbon Footprint Calculator Demo](footprint.png) 
 
